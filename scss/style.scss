@@ -1,0 +1,58 @@
+/**/
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+:root{
+
+    /* color section */
+    --clr-primary:#1ab7ea;
+    --clr-secondary:#25D366;
+    --clr-heading:#363331;
+
+    --clr-light:#fff;
+	--clr-dark:#303030;
+    --clr-accent:#000000; 
+    
+    --fw-reg:300;
+    --fw-bold:900;
+    
+    --ff-regular:'Montserrat', sans-serif;
+	--ff-secondary:'Source Code Pro', monospace;
+    --ff-primary:'Source Sans Pro', sans-serif;
+    
+
+
+	--fs-h1:3rem;
+	--fs-h2:2.25rem;
+	--fs-h3:1.25rem;
+	--fs-body:1rem;
+
+}
+
+
+body {
+	background: linear-gradient(rgba(255, 72, 176, 0.363),rgba(134, 168, 231, 0.418)),url(/img/7.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+
+    
+    
+
+}

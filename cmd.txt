@@ -1,0 +1,10 @@
+node -v
+npm -v
+gulp -v
+
+npm init
+npm install gulp-cli -g
+npm install --save-dev gulp gulp-sass browser-sync
+create gulpfile 
+gulp style
+gulp watch 
